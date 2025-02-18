@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+#friend {
+    width: 700px; /* Adjust size */
+    display: block;
+}
+
+#butt {
+    width: 90px;
+    position: absolute;
+    bottom: 400px; /* Move it lower */
+    left: 48%;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1; /* Ensure it's above the friend image */
+}
